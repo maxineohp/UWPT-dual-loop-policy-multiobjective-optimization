@@ -1,0 +1,54 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+venv1/
+qat_env/
+export_env/
+.pytest_cache/
+
+# Private data and training/conversion outputs
+data/
+traj_csv/
+traj_outputs/
+output/
+outputs/
+model_output*/
+*surrogate_output*/
+*policy_output*/
+lightweight_models*/
+lightweight_small/
+plecs_headers*/
+*history.csv
+*predictions.csv
+*rollouts.csv
+*.csv
+*.mat
+*.xlsx
+*.xls
+*.png
+*.log
+
+# Trained models, scalers, circuits, and generated NPU artifacts
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.onnx
+*.plecs
+*.a
+*.lib
+*.obj
+*.o
+*.h
+*.c
+
+# Local secrets and configuration
+.env
+.env.*
+*.key
+*.pem

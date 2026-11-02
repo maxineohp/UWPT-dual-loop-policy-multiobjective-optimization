@@ -1,0 +1,13 @@
+# General Python packages used by the source scripts; versions were not verified in a clean environment.
+numpy
+pandas
+scikit-learn
+joblib
+matplotlib
+openpyxl
+torch
+onnx
+onnxruntime
+
+# TI tinyml_torchmodelopt and TI NNC are required for the F28P55 QAT/compile path.
+# Obtain them from TI separately under the applicable TI terms.
