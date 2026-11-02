@@ -1,4 +1,4 @@
-# uwpt双闭环策略网络多目标优化
+# UWPT双闭环策略网络多目标优化
 
 This repository contains the **source scripts** for an underwater wireless power transfer (UWPT) workflow: surrogate modeling, NSGA-II preference-label generation, steady and dynamic policy training, optional model distillation, and conversion toward the TI F28P55 NPU toolchain.
 
